@@ -28,7 +28,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_scan_success">
 
-        <com.google.android.material.textfield.TextInputEditText
+        <com.kobe.lib_base.ClearEditText
             android:id="@+id/et_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
