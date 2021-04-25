@@ -50,8 +50,8 @@ public class InputProjectAddressActivity extends BaseActivity {
 
     class MyThread extends Thread {
 
-        private String ipAddress;
-        private String projectAddress;
+        private final String ipAddress;
+        private final String projectAddress;
 
         public MyThread(String ipAddress, String projectAddress) {
             this.ipAddress = ipAddress;
